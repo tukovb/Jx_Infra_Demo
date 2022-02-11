@@ -13,7 +13,7 @@ variable "aws_access_key" {
   default = "AKIA5X5MOV4S6SSOQ25B"
 }
 
-variables "aws_secret_key" {
+variable "aws_secret_key" {
   description = "Secret Key stored in aws credentials file"
   type        = string
   default = "5Smv9xOjf7EeOPCVrwDej2Za80OBHd3eHF4mOxvj"
