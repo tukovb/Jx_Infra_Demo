@@ -7,10 +7,16 @@ variable "region" {
   default = "us-east-1"
 }
 
-variable "profile" {
-  description = "Profile stored in aws config or credentials file"
+variable "aws_access_key" {
+  description = "Access key stored in aws credentials file"
   type        = string
-aws_access_key_id = "AKIA5X5MOV4S6SSOQ25B"
+  default = "AKIA5X5MOV4S6SSOQ25B"
+}
+
+variables "aws_secret_key" {
+  description = "Secret Key stored in aws credentials file"
+  type        = string
+  default = "5Smv9xOjf7EeOPCVrwDej2Za80OBHd3eHF4mOxvj"
 }
 
 variable "cluster_version" {
