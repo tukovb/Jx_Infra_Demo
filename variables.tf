@@ -11,7 +11,6 @@ variable "profile" {
   description = "Profile stored in aws config or credentials file"
   type        = string
 aws_access_key_id = "AKIA5X5MOV4S6SSOQ25B"
-aws_secret_access_key = "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"
 }
 
 variable "cluster_version" {
